@@ -1,0 +1,11 @@
+.section {
+    margin-top: 40px;
+}
+.section__surename {
+    color: yellow;
+}
+.section__curiosity {
+    background-color: #019B00;
+    color: #fff;
+    padding: 5px 15px;
+}

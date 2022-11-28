@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasia Migacz - esperantystka</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="container js-container">
+        <header class="header">
+            <h1 class="header__mainHeader js-mainHeader">Kasia Migacz</h1>
+            <button class="header__button js-button">włącz <span class="js-darkOrBright">ciemny</span> motyw</button>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie">Kilka słów o mnie</a></li>
+                <li class="navigation__listItem"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a></li>
+                <li class="navigation__listItem"><a class="navigation__link" href="#ksiazki">Ulubione książki</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <img class="main__photo" src="images/km.jpg" alt="zdjęcie autorki strony">
+            <section class="section" id="o-mnie">
+                <h2>Kilka słów o mnie</h2>
+                <p>Cześć, mam na imię Kasia, pochodzę z okolic Inowrocławia, ale aktualnie mieszkam w <b>Krakowie</b>.
+                    Ukończyłam
+                    studia licencjackie z Zarządzania oraz magisterskie z Administracji. Od 4 lat pracuję na stanowisku
+                    pracownika
+                    biurowego. Rozpoczęłam naukę programowania, ponieważ chciałabym coś zmienić w swojej karierze
+                    zawodowej i
+                    dalej
+                    się rozwijać.</p>
+            </section>
+            <section class="section" id="zainteresowania">
+                <h2>Zainteresowania</h2>
+                <p>W wolnym czasie słucham dużo audiobooków. W szczególności interesują mnie kryminały oraz powieści
+                    fantazy.
+                    Ponadto jestem wielką fanką Esperanto. Obecnie jeszcze się go uczę i szczerze wszystkich do tego
+                    zachęcam!
+                </p>
+                <h3>Czym jest Esperanto</h3>
+                <div class="section__curiosity">
+                    <p><b>Esperanto</b> (esperanto: osoba mająca nadzieję, pierwotnie <i>Lingvo Internacia</i>, w tłum.
+                        język
+                        międzynarodowy) – najbardziej rozpowszechniony na świecie międzynarodowy język pomocniczy. Jego
+                        nazwa
+                        pochodzi od pseudonimu <i>„Dr. Esperanto”</i> (doktor mający nadzieję), pod którym <span
+                            class="section__surename">Ludwik Zamenhof</span> opublikował w 1887 podstawy języka w książce "Język
+                        międzynarodowy. Przedmowa i podręcznik kompletny". Jego celem było stworzenie neutralnego i
+                        łatwego do
+                        nauki
+                        języka, przydatnego do międzynarodowej komunikacji, nie zastępującego jednak innych języków
+                        narodowych.
+                    </p>
+                    <p>Pomimo że żadne państwo nie uznaje esperanto za swój język urzędowy, jest ono używane przez
+                        międzynarodową
+                        wspólnotę, której wielkość, według różnych źródeł, szacowana jest na od stu tysięcy do <em>dwóch
+                            milionów</em> użytkowników.<br><strong>Esperanto to jednak nie tylko język - to idea
+                            propagowania
+                            pokoju, komunikacji, życzliwości i tolerancji.</strong></p>
+                </div>
+            </section>
+            <section class="section" id="ksiazki">
+                <h2>Ulubione książki</h2>
+                <p>Jak juz wcześniej wspomniałam, słucham dużo audiobooków i choć trudno wskazać te najbardziej
+                    ulubione, bo jest ich zbyt wiele, poniżej przedstawiam pare wybranych tytułów.</p>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">Ulubione książki</caption>
+                        <thead class="table__thead">
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                                <th class="table__cell table__cell--header" scope="col">Autor</th>
+                                <th class="table__cell table__cell--header" scope="col">Cykl</th>
+                                <th class="table__cell table__cell--header" scope="col">Gatunek</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Drelich. Prosto w splot</th>
+                                <td class="table__cell">Jakub Ćwiek</td>
+                                <td class="table__cell">-</td>
+                                <td class="table__cell" rowspan="3">kryminał, sensacja, thriller</td>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Martwy sad (tom 1)</th>
+                                <td class="table__cell" rowspan="2">Mieczysław Gorzka</td>
+                                <td class="table__cell" rowspan="2">Cienie przeszłości</td>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Totentanz (tom 3)</th>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Shantaram (tom 1)</th>
+                                <td class="table__cell" rowspan="2">Gregory David Roberts</td>
+                                <td class="table__cell" rowspan="2">Shantaram</td>
+                                <td class="table__cell" rowspan="2">literatura piękna</td>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Cień góry (tom 2)</th>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Czas Żniw (tom 1)</th>
+                                <td class="table__cell" rowspan="5">Samantha Shannon</td>
+                                <td class="table__cell" rowspan="4">Czas Żniw</td>
+                                <td class="table__cell" rowspan="5">fantasy, science fiction</td>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Zakon Mimów (tom 2)</th>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Pieśń jutra (tom 3)</th>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Koniec maskarady (tom 4)</th>
+                            </tr>
+                            <tr>
+                                <th class="table__cell table__cell--header" scope="row">Zakon Drzewa Pomarańczy</th>
+                                <td class="table__cell">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">Copyright © 2022 Katarzyna Migacz</footer>
+    </div>
+
+</body>
+
+</html>

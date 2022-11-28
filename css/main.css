@@ -1,0 +1,10 @@
+.main {
+    margin: 0px 40px;
+    line-height: 1.5;
+}
+.main__photo {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
