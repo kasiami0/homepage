@@ -3,9 +3,7 @@
         console.log("Saluton!");
     };
 
-    const button = document.querySelector(".js-button");
-
-    const onChangeMotiveClick = () => {
+    const onChangeMotiveClick = (button) => {
         const container = document.querySelector(".js-container");
         const mainHeader = document.querySelector(".js-mainHeader");
         const darkOrBright = document.querySelector(".js-darkOrBright");
@@ -17,7 +15,11 @@
     };
 
     const init = () => {
-        button.addEventListener("click", onChangeMotiveClick);
+        const button = document.querySelector(".js-button");
+
+        button.addEventListener("click", ()=> {
+            onChangeMotiveClick(button);
+        });
         welcome();
     };
     
